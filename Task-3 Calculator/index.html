@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Display</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- .container>.box#box-${box-$}*10  -->
+    <h1 class="text-center mb-5">Let's Calculate The Problem</h1>
+    <div class="container">
+        
+      
+        <div class="calculator">
+          
+      <input type="text" class="display" placeholder="0" id="output">
+
+  
+        <button onclick="Clear()" class="color">AC</button>
+        <button onclick="del()" class="color">C</button>
+        <button onclick="display('%')" class="color">%</button>
+        <button onclick="display('/')" class="color">/</button>
+
+        <button onclick="display('7')">7</button>
+        <button onclick="display('8')">8</button>
+        <button onclick="display('9')">9</button>
+        <button onclick="display('*')" class="color">X</button>
+
+        <button onclick="display('4')">4</button>
+        <button onclick="display('5')">5</button>
+        <button onclick="display('6')">6</button>
+        <button onclick="display('-')" class="color">-</button>
+
+        <button onclick="display('1')">1</button>
+        <button onclick="display('2')">2</button>
+        <button onclick="display('3')">3</button>
+        <button onclick="display('+')" class="color">+</button>
+
+        <button onclick="display('00')">00</button>
+        <button onclick="display('0')">0</button>
+        <button onclick="display('.')">.</button>
+        <button onclick="Calculate()" class="color">=</button>
+    
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
