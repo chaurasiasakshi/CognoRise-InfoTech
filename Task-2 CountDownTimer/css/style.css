@@ -48,7 +48,6 @@ input{
 
 input[type=text] {
     border-radius: 50%;
-
     font-size: 6em;
     display: flex;
     text-align: center;
@@ -71,7 +70,7 @@ label{
       justify-content: space-between;
     }
     .col > div {
-      flex: 1;
+      flex: 2;
       margin: 0 10px;
     }
     input{
