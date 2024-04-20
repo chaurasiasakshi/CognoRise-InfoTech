@@ -1,0 +1,47 @@
+body{
+    background-image: url("https://img.freepik.com/premium-photo/gradient-background-with-light-hues_893571-6398.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    color: blueviolet;
+font-weight: bolder;
+    text-shadow: 5px 2px 3px olivedrab;
+  /* margin-top: 1.5em; */
+  font-size: 2.8em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.285);
+  padding: 1rem;
+}
+.btn{
+float: right;
+margin-top: 1em;
+/* margin-bottom: 2em; */
+}
+th{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #3e2362;
+}
+td{
+    font-size: 1.2em;
+}
+i{
+    font-size: 1.5em;
+    color: blue;
+}
+.del{
+    color: red;
+}
+
+#check{
+    height: 2em;
+    width: 2em;
+   cursor: pointer;
+   accent-color: yellow;
+
+}
+
+
+
+
